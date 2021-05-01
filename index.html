@@ -301,7 +301,7 @@
                 This presentations works with <a href="https://github.com/hakimel/reveal.js/">
                     reveal.js</a> and is hosted on <a href="https://pages.github.com/"> github-pages </a><br> <br>
                 (Balloons? -> <a href="https://codepen.io/bennettfeely/pen/nbFCp">codepen</a>)
-                (Confetty? -> <a href="https://github.com/yiliansource/party-js">party-js</a>)
+                (Confetti? -> <a href="https://github.com/yiliansource/party-js">party-js</a>)
 
                 </small>
             </section>
@@ -330,13 +330,13 @@
     });
 
     document.getElementById('btn-confetti').addEventListener('click', () => {party.screen({
-        count: 500 * (window.innerWidth / 1980),
-        countVariation: 0.5,
-        angleSpan: 0,
+        count: 700 * (window.innerWidth / 1980),
+        countVariation: 1.5,
+        angleSpan: 90,
         yVelocity: -100,
-        yVelocityVariation: 2,
+        yVelocityVariation: 10,
         rotationVelocityLimit: 6,
-        scaleVariation: 0.8
+        scaleVariation: 1.5
     }); } );
 </script>
 </body>
